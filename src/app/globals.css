@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 /* ==================================== VARIABLES ==================================== */
 :root {
@@ -885,6 +888,10 @@ p:not(:last-child) {
   margin-bottom: 10px;
 }
 /* ==================================== CONTACT STARTED ==================================== */
+.contact-me-sec {
+  padding: 50px 0;
+}
+
 .form-control {
   border: none;
   font-size: 16px;
@@ -1037,7 +1044,7 @@ textarea.form-control {
   }
 }
 @media screen and (max-width: 767px) {
-  .header-style-one .portfolio-inner-nav nav{
+  .header-style-one .portfolio-inner-nav nav {
     right: -200px;
     max-width: 200px;
   }
@@ -1091,7 +1098,7 @@ textarea.form-control {
     left: 50%;
     transform: rotate(45deg) translateX(-50%);
   }
-  .serv-box:hover{
+  .serv-box:hover {
     transform: none;
   }
 }
